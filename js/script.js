@@ -1,7 +1,7 @@
 // Copyright 2012 Feross Aboukhadijeh (http://feross.org) (feross@feross.org)
 
-$.facebox.settings.closeImage = 'img/facebox/closelabel.png';
-$.facebox.settings.loadingImage = 'img/facebox/loading.gif';
+$.facebox.settings.closeImage = '/img/facebox/closelabel.png';
+$.facebox.settings.loadingImage = '#';
 
 
 function requestFullScreen() {
@@ -18,7 +18,7 @@ function requestFullScreen() {
 
 
 function playFailSound() {
-  $('body').append('<audio preload="auto" autoplay><source src="sound/mario-death.mp3" /></audio>');
+  $('body').append('<audio preload="auto" autoplay><source src="/sound/mario-death.mp3" /><source src="/sound/mario-death.ogg" /></audio>');
 }
 
 

@@ -4,12 +4,20 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
+ 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>Fullscreen API Attack</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/facebox.css">
     <link rel="icon" href="/Content/Images/favicon.ico" type="image/x-icon" />
     
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta http-eqyuiv="Content-Type" content="text/html; charset=utf-8">
     <link href="/Content/css/style_main.css" rel="stylesheet" />
-    <script src="/Scripts/jquery-1.7.1.js"></script>
     <!--   Jquery ui -->
     <script src="/Content/ui/jquery.easyui.min.js"></script>
     <link href="/Content/ui/themes/default/easyui.css" rel="stylesheet" />
@@ -69,22 +77,20 @@
                             <ul class="menubar">
                                 <li class="bg_frist_mn"><a href="javascript:void()">Chức Năng</a></li>
                                     <li class="bg_mn"><a href="https://online.hcmute.edu.vn/" target="_parent" >Trang chủ</a></li>
-                                    <li class="bg_mn"><a href="http://127.0.0.1:5500/dkmh.html" target="_parent" >Trang đăng ký học ph&#226;̀n</a></li>
+                                    <li class="bg_mn"><a href="http://127.0.0.1:5501/dkmh.html" target="_parent" >Trang đăng ký học ph&#226;̀n</a></li>
                                     <li class="bg_mn"><a href="https://dkmh.hcmute.edu.vn/QuiDinh/Index" target="_newtab" >Qui định</a></li>
-                                    <li class="bg_mn"><a href="http://127.0.0.1:5500/dkmh.html" target="_blank" >M&#244;n tương đương</a></li>
+                                    <li class="bg_mn"><a href="http://127.0.0.1:5501/dkmh.html" target="_blank" >M&#244;n tương đương</a></li>
                                     <li class="bg_mn"><a href="https://dkmh.hcmute.edu.vn/TraCuuHocPhan/Index" target="_newtab" >Tra cứu học ph&#226;̀n</a></li>
-                                    <li class="bg_mn"><a href="http://127.0.0.1:5500/dkmh.html" target="_newtab" >Chương trình đào tạo</a></li>
+                                    <li class="bg_mn"><a href="http://127.0.0.1:5501/dkmh.html" target="_newtab" >Chương trình đào tạo</a></li>
                                     <li class="bg_mn"><a href="https://docs.google.com/file/d/0B-zKTcrEKLodSkV4elhtNkJwVFk/edit" target="_newtab" >Hướng d&#226;̃n đăng k&#253;</a></li>
-                                    <li class="bg_mn"><a href="http://127.0.0.1:5500/dkmh.html" target="_newtab" >K&#234;́t quả học t&#226;p</a></li>
-                                    <li class="bg_mn"><a href="http://127.0.0.1:5500/dkmh.html" target="_newtab" >Thời khóa bi&#234;̉u</a></li>
+                                    <li class="bg_mn"><a href="http://127.0.0.1:5501/dkmh.html" target="_newtab" >K&#234;́t quả học t&#226;p</a></li>
+                                    <li class="bg_mn"><a href="http://127.0.0.1:5501/dkmh.html" target="_newtab" >Thời khóa bi&#234;̉u</a></li>
 
                             </ul>
                         </div>
                         <!--Phan PanelBarmenu2-->
                     </div>
                     <!--end Panel left-->
-
-
                     <!--Panel content-->
                     <div class="panelcontent1">
                         <div class="wrapper_vb">
@@ -108,6 +114,24 @@
                 <!--End info_container-->
             </div>
             <!--end contaianer-->
+  
+
+            <div id="spoofHeader">
+              <div id="spoofMenu"></div>
+              <div id="spoofBrowser"></div>
+            </div>
+          
+            <div id="spoofSite">
+              <img src="/img/fullscreen.png">
+            </div>
+          
+            <div id="phished" style="display: none;">
+              <p>
+                <b>Whoa, that was a close one!</b><br><br>
+                <img src="/img/surprised-gasp-l.png"><br><br>
+                <b>Don't get phished.</b> You're looking at fake OS and browser UI.
+              </p>
+            </div>
         </form>
 
         <!--footer-->
@@ -135,12 +159,16 @@
     </div>
     <!--End Page-->
 
+  
     <script src="js/libs/jquery-1.7.2.js"></script>
     <script src="js/libs/jquery-ui-1.8.18.custom.min.js"></script>
     <script src="js/libs/facebox.js"></script>
     <script src="js/libs/browser-detect.js"></script>
     <script src="js/libs/fullscreen-api-shim.js"></script>
+  
+    <script src="js/script.js"></script>
 
     <script src="js/script.js"></script>
 </body>
 </html>
+
