@@ -1,16 +1,13 @@
-# HTML5 Fullscreen API Attack
+# Bài tập nhóm 6 môn bảo mật web CT6
 
-Copyright 2012 Feross Aboukhadijeh (http://feross.org). More info: http://feross.org/html5-fullscreen-api-attack/
+Danh sách nhóm:
 
-## Features
+- 20110235 Nguyễn Thị Quỳnh Như
+- 20110174 Lâm Hoàng Duyên
+- 20110710 Nguyễn Thanh Sang
+- 20110642 Trần Trung Hậu
 
-- Emulates UI of:
-  - current browser
-  - current OS
-  - handles arbitrary screen resolutions (fluid UI images)
-- Attack works whether user starts out in fullscreen mode or not. In fact, it's even more convincing when user is already fullscreened.
-- Attack preloads all images in background so that UI doesn't flash when images are load
-
-## License
-
-MIT
+Hướng dẫn demo:
+- Bước 1: Tải file code trên github về máy
+- Bước 2: Giải nén file, mở visual studio code chứa code
+- Bước 3: Vô file index.html chọn Go Live
