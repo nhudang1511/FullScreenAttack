@@ -3,3 +3,5 @@
 - Bước 3: Vô file index.html chọn Go Live
 - Bước 4: Bấm các nút xung quanh sẽ ra các chức năng giống một trang đkmh bình thường
 - Bước 5: Bấm vào nút Đăng nhập qua email để vào màn hình phóng to và hiện thông báo 
+Lưu ý: do code có thể bị tải chậm làm lần đầu chạy trang web có thể bị lỗi không hiện thị phóng to màn hình, 
+khi đó mong cô thông cảm chạy lại một lần nửa dùm bọn em ạ. Em cảm ơn cô rất nhiều 
