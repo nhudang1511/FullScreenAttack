@@ -1,0 +1,5 @@
+- Bước 1: Tải file code trên utex hoặc github: https://github.com/nhudang1511/FullScreenAttack về máy
+- Bước 2: Giải nén file, mở visual studio code chứa code
+- Bước 3: Vô file index.html chọn Go Live
+- Bước 4: Bấm các nút xung quanh sẽ ra các chức năng giống một trang đkmh bình thường
+- Bước 5: Bấm vào nút Đăng nhập qua email để vào màn hình phóng to và hiện thông báo 
